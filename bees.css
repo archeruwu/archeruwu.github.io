@@ -1,0 +1,22 @@
+body {
+ /*background: url('raining.gif') repeat-; */
+}
+#snake {
+	width: 100%;
+	height: 100%;
+}
+.videoWrapper {
+	position: fixed;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+body, html { margin:0; padding:0; height:100%; width:100%; }
+#snake {position:fixed; left:0; top:0; z-index:1; height:100%; width:100%; }
