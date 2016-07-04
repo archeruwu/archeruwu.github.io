@@ -18,5 +18,9 @@ body {
 	width: 100%;
 	height: 100%;
 }
+video {
+    width: 100%;
+    height: 100%;
+}
 body, html { margin:0; padding:0; height:100%; width:100%; }
 #snake {position:fixed; left:0; top:0; z-index:1; height:100%; width:100%; }
