@@ -5,15 +5,15 @@
 <link href="snake.css" type="text/css" rel="stylesheet">
 </head>
 <body>
-<video width="100%" height="100%" onended="end()" autoplay>
+<video width="100%" height="100%" onended="closeCurrentWindow()" autoplay>
   <source src="anyway.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 <script>
-function end()
+function closeCurrentWindow()
 {
- window.top.close();
-
+  window.open('', '_self', '');
+window.close();
 }
 </script>
 </body
