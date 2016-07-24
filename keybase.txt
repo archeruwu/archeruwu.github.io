@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/archer
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://amazingarcher23.github.io
+  * I am archer (https://keybase.io/archer) on keybase.
+  * I have a public key with fingerprint 5A5E 6F88 5373 F09B DB24  1252 4384 E78F 8BD7 50F3
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101e987ba25528e506b2600c3140372b37497cbd14632dec0b319c9ebaa2e00366e0a",
+            "fingerprint": "5a5e6f885373f09bdb2412524384e78f8bd750f3",
+            "host": "keybase.io",
+            "key_id": "4384e78f8bd750f3",
+            "kid": "0101e987ba25528e506b2600c3140372b37497cbd14632dec0b319c9ebaa2e00366e0a",
+            "uid": "e226306f3f87b8f3f73a51521b0c7419",
+            "username": "archer"
+        },
+        "service": {
+            "hostname": "amazingarcher23.github.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1469359954,
+    "expire_in": 157680000,
+    "prev": "02eae7902101a5157bc5dc8ba6b7c6ebf5a10c90cfaf9a11dc1bb62905403eeb",
+    "seqno": 5,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.53
+Comment: https://keybase.io/crypto
+
+yMIwAnicrVJbSBRRGN7N0jKjjcAiH6pJjWSTM5czl6USJLpQGRWYirWeM3Nmdyh3
+t5nZNbW1OwVq9NDqg1hgRdH9QqIIS6kZEQpJdA+iCxEFlRSpBHVG863HzsvP+c/3
+f//3fZzeGSmudPdoY/m+xPPiAveDO21R19YT5zbXMjisVTO+WmYHGStkp0Ys27/D
+0BgfA1jAEkWWMOIg5GQCgYg5EQCVZwXASxzmJUGRVKyxgshzGlEB5llFVQhGiCMA
+8KJIAGK8jG6EAsSMmEbIprQQQSLqsgx5ideBgjXMCSwHOYGXBSLJuow1CQKdp4PB
+sOVMUHEYWSTfCNMevfjH5P0D/591R8foCMeJPBB1XqeUMi0SjyALORYDVRJYxQFa
+xAyhSkLRyFSDxGTiXob2YoZKnFgdHxPvlaiGxjEO4/j8gGEHo3jcWsQM22E1vJPC
+grYdsXwOjV0dceaqCPb/ZfRjI6RRDjoRI6ZlhEOMj6VI1TacFdSVwkNFgYKXIbsj
+hkn8hoOAkigDepw9JObkxBFEJAVwNC/HkYRVqKkyRiKWVJFgHSIWqApQdaQriGU1
+lcVY5BQAaYyEYMbxuCsUZnyQykQBSmkZgRCyoyZh4t23yye73Omu1CmTnK/mSp/m
+mfiAGfG034Xvj+fs33K26UhkXVnB0MJvsx/Gjs3tzFjS8uJ0y/bHZzzso/reeyta
+nwUqdp9JxvKSz1uFkz2HmyIVdv+j72lLrnozhor2TB+Y9iH7UHt7TqL0S7Frbxxl
+Tm5OPZA49aFlX7O3rvzzwfbUuxc/Xu99va21Rb5cM2otXdb4JtJ1cEbpnJIn68us
+vspZiZWLG97d8taV9fRXdK4Zvnl0g9s3Na2kqCJ3VXcwWdjw6UrbxrU/G6NVWT/c
+57ty67Xur4NZ2f3DP74OFL7q2JsZ9SQXZfV5LhwJ3nRfahuu77o/smD5Nakjin89
+eTpzdUrnlLeeopV5heXzRua83tT0crBzdH6i+caNP0LoRXc=
+=GxwS
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/archer
+
+==================================================================
