@@ -1,0 +1,5 @@
+/* <div class="centerwrapper"><div class="centercell"></div></div> */
+/* vertically center stuff, use html above */
+/* REQUIREMENT: must be put in div as display:block, must have a set width and height */
+.centerwrapper {display:table;width:100%;height:100%;}
+.centercell {display:table-cell; vertical-align:middle;}
