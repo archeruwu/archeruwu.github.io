@@ -1,0 +1,102 @@
+<html>
+<head>
+<link rel="shortcut icon" href="favicon.ico" />
+<title>Archer</title>
+<meta name="description" content="i made ArcherBot, and i like edgy things" />
+<meta name="author" content="Archer">
+<meta name="theme-color" content="#11D138">
+<meta name="keywords" content="AmazingArcher23,Archer23,Archer,AA23,archer,amazingarcher23" />
+<meta property="og:image" content="https://amazingarcher23.github.io/Archer.png">
+
+      <script src="https://widget.battleforthenet.com/widget.js" async></script>
+</head>
+<body>
+      <iframe width="0" height="0" src="https://www.youtube.com/embed/videoseries?list=PLhEzccdvWd7fp3O99S5o8u1m7euzSpQQp?rel=0&autoplay=1"
+frameborder="0" allowfullscreen></iframe>
+            <!-- <iframe width="0" height="0" src="https://www.youtube.com/embed/Yp60yUb6nYo?rel=0&autoplay=1"
+frameborder="0" allowfullscreen></iframe> -->
+<img draggable="false" src="https://amazingarcher23.github.io/Archer.png" >
+<p></p>
+<br><br><br>
+<div class="links">
+<a href="https://www.youtube.com/c/amazingarcher23main"> <img draggable="false" src="https://cdn.discordapp.com/attachments/280037893857345536/351520098873245698/youtube-act.png" width="64" height="64"></a>
+<a href="https://discord.gg/YSMYBjF"> <img draggable="false" src="https://cdn.discordapp.com/attachments/280037893857345536/351520368164339712/discord_logo1600.png" width="64" height="64"></a>
+<a href="https://discord.gg/KMajrtM"> <img draggable="false" src="https://cdn.discordapp.com/attachments/280037893857345536/376790343548665866/dorchester_antenna_closeup.jpg" width="64" height="64"></a>
+<a href="http://twitch.tv/AmazingArcher23"> <img draggable="false" src="https://cdn.discordapp.com/attachments/280037893857345536/351520532904017921/twitch.png" width="64" height="64"></a>
+<a href="http://twitter.com/AmazingArcher23"> <img draggable="false" src="https://cdn.discordapp.com/attachments/280037893857345536/351520650478747649/logo-twitter.png" width="64" height="64"></a>
+<a href="https://discordapp.com/oauth2/authorize?client_id=192402148493885440&scope=bot&permissions=268492918"> <img draggable="false" src="https://cdn.discordapp.com/attachments/280037893857345536/375474506028023810/ArcherBot4.png" width="64" height="64"></a>
+</div>
+<p></p>
+<br><br><br><br><br>
+<!-- <div class="friend_sites">
+<h3> Friends:</h3>
+</div>
+<a href="http://the.braixen.party/" title="Brianna Foxwell"> <img src="https://cdn.discordapp.com/attachments/280037893857345536/353352809250291713/pokemon__braixen_by_markymarktastic-d845jg0.png" width="64" height="64"></a>
+<a href="http://kaleidonkep99.it/" title="Keppy"> <img src="https://cdn.discordapp.com/attachments/280037893857345536/353364446497865739/photo.png" width="64" height="64"></a>
+<a href="https://twitter.com/BoxOfFlex" title="Flex"> <img src="https://cdn.discordapp.com/attachments/280037893857345536/353365043695583234/QHlfgOA4_400x400.png" width="64" height="64"></a>
+<a href="https://twitter.com/janepetrovna" title="Jane"> <img src="https://cdn.discordapp.com/attachments/280037893857345536/353366111515049988/latest.png" width="64" height="64"></a>
+<a href="https://twitter.com/SweetestFade" title="Jess"> <img src="https://cdn.discordapp.com/attachments/280037893857345536/353366423743234051/Fp_uEOBW_400x400.png" width="64" height="64"></a> -->
+<!-- <iframe width="50%" height="300" scrolling="no" frameborder="yes" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/328412645&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;visual=true&amp;show_artwork=true"></iframe> -->
+<style>
+body {
+  text-align: center;
+  color: white;
+   background-image: url('https://cdn.discordapp.com/attachments/308021361018667008/335537062696583168/PrHxY33.gif');
+   /*background-repeat: no-repeat;
+   background-size: 100% 100%; */
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+.friend_sites {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+img {
+  padding: 2px;
+}
+a {
+  color: white;
+}
+</style>
+<script>
+var allowedKeys = {
+  37: 'left',
+  38: 'up',
+  39: 'right',
+  40: 'down',
+  65: 'a',
+  66: 'b'
+};
+
+var konamiCode = ['up', 'up', 'down', 'down', 'left', 'right', 'left', 'right', 'b', 'a'];
+
+var konamiCodePosition = 0;
+
+document.addEventListener('keydown', function(e) {
+  var key = allowedKeys[e.keyCode];
+  var requiredKey = konamiCode[konamiCodePosition];
+  if (key == requiredKey) {
+    konamiCodePosition++;
+    if (konamiCodePosition == konamiCode.length) {
+      activateCheats();
+      konamiCodePosition = 0;
+    }
+  } else {
+    konamiCodePosition = 0;
+  }
+});
+function activateCheats() {
+
+  var audio = new Audio('https://amazingarcher23.github.io/yesman.wav');
+  audio.volume = 0.2;
+  audio.play();
+  setTimeout(function () {
+      window.location.replace("https://amazingarcher23.github.io/index_fallout.html")
+  }, 3000)
+      // idk who made this snip first but i found it on discord
+
+
+}
+</script>
+</body>
+</html>
