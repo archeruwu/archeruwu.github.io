@@ -1,3 +1,6 @@
 body {
 background: black
 }
+#chatheader, #currenttitle, #userlist, #messagebuffer, #plmeta {
+    background-color: #ffffff;
+}
