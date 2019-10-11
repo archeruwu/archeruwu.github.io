@@ -27,13 +27,23 @@
       konamiCodePosition = 0;
     }
   });
+  
   function activateCheats() {
   
-    var audio = new Audio('/sound/heyooo.mp3');
+    var audio = new Audio('./sound/heyooo.mp3');
     audio.volume = 0.2;
     audio.play();
         // idk who made this snip first but i found it on discord
-        var m=Math.random,d=(...a)=>a.map(b=>String.fromCharCode(b)).join(''),s={[d(112,111,115,105,116,105,111,110)]:d(97,98,115,111,108,117,116,101),[d(122,73,110,100,101,120)]:99999};(function a(){setTimeout(a,10*m());var b=document.createElement`div`;b.innerHTML=d(55358,56596),Object.entries(Object.assign({fontSize:(0|48*m())+16+d(112,120),left:(0|m()*innerWidth)+d(112,120),top:(0|m()*innerHeight)+d(112,120)},s)).map(([c,e])=>b.style[c]=e),document.body.appendChild(b)})();
+        // var m=Math.random,d=(...a)=>a.map(b=>String.fromCharCode(b)).join(''),s={[d(112,111,115,105,116,105,111,110)]:d(97,98,115,111,108,117,116,101),[d(122,73,110,100,101,120)]:99999};(function a(){setTimeout(a,10*m());var b=document.createElement`div`;b.innerHTML=d(55358,56596),Object.entries(Object.assign({fontSize:(0|48*m())+16+d(112,120),left:(0|m()*innerWidth)+d(112,120),top:(0|m()*innerHeight)+d(112,120)},s)).map(([c,e])=>b.style[c]=e),document.body.appendChild(b)})();
+        var src = "https://66.media.tumblr.com/45545c1479988c4288fa2b5580cae1e2/tumblr_pu8s81VRFQ1ynrp9fo1_400.gif";
+        show_image("https://66.media.tumblr.com/45545c1479988c4288fa2b5580cae1e2/tumblr_pu8s81VRFQ1ynrp9fo1_400.gif", 400,225, "Google Logo");
   
-  
+  }
+  function show_image(src, width, height, alt) {
+    var img = document.createElement("img");
+    img.src = src;
+    img.width = width;
+    img.height = height;
+    img.alt = alt;
+    document.body.appendChild(img);
   }

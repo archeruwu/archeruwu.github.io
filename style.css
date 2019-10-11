@@ -38,6 +38,7 @@
     }
     img {
       margin: 5px;
+      opacity: .99;
     }
     a {
       color: white;
