@@ -1,0 +1,48 @@
+.logo {
+    padding-top: 9px; 
+    }
+    body {
+      text-align: center;
+      color: white;
+      /* background-image: url('https://media.discordapp.net/attachments/280037893857345536/447812269502496768/Untitled-1.png');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      width: auto;
+      height: auto */
+      background-color: black;
+    }
+    #myVideo {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+      }
+    @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+    @import url('https://fonts.googleapis.com/css?family=Nunito');
+    .about {
+      padding-left: 100px;
+      padding-right: 100px;
+      margin: 10px;
+      opacity: .8;
+    }
+    .logo {
+        opacity: 0.9;
+    }
+    .about p span {
+      font-size: 17px;
+      font-family: 'Nunito', sans-serif;
+      background-color: rgba(0, 0, 0, 0.55);
+      box-shadow: 1px 1px 5px black;
+    }
+    img {
+      margin: 5px;
+    }
+    a {
+      color: white;
+    }
+    .links {
+      opacity: .8;
+    }
+  

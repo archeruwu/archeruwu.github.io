@@ -7,11 +7,14 @@
   <meta name="theme-color" content="#11D138"/>
   <meta name="keywords" content="archer_uwu,archeruwu,Archer,uwu,archer,archer uwu" />
   <meta property="og:image" content="/images/Archer.png"/>
-  
+  <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
+  <video autoplay muted loop id="myVideo">
+    <source src="./images/background.mp4" type="video/mp4">
+  </video>
   <div class="logo">
-  <img draggable="false" src="/images/logo clean 2019.png" width="224" height="224" >
+  <img draggable="false" src="./images/Archer2019.png" width="224" height="224" >
   </div>
   <p></p>
   <br><br><br>
@@ -25,82 +28,6 @@
   <div class="about">
     <p><span>Discord: archer#9341</span></p>
   </div>
-  <style>
-  .logo {
-  padding-top: 9px; 
-  }
-  body {
-    text-align: center;
-    color: white;
-    background-image: url('https://media.discordapp.net/attachments/280037893857345536/447812269502496768/Untitled-1.png');
-     background-repeat: no-repeat;
-     background-size: 100% 100%;
-     background-color: black;
-  }
-  @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
-  @import url('https://fonts.googleapis.com/css?family=Nunito');
-  .about {
-    padding-left: 100px;
-    padding-right: 100px;
-    margin: 40px;
-  }
-  .about p span {
-    font-size: 17px;
-    font-family: 'Nunito', sans-serif;
-    background-color: rgba(0, 0, 0, 0.55);
-    box-shadow: 1px 1px 5px black;
-  }
-  img {
-    margin: 5px;
-  }
-  a {
-    color: white;
-  }
-  .links {
-    opacity: .8;
-  }
-
-  </style>
-  <script>
-
-    
-  // I did not make the Konami Code script.
-  var allowedKeys = {
-    37: 'left',
-    38: 'up',
-    39: 'right',
-    40: 'down',
-    65: 'a',
-    66: 'b'
-  };
-  
-  var konamiCode = ['up', 'up', 'down', 'down', 'left', 'right', 'left', 'right', 'b', 'a'];
-  
-  var konamiCodePosition = 0;
-  
-  document.addEventListener('keydown', function(e) {
-    var key = allowedKeys[e.keyCode];
-    var requiredKey = konamiCode[konamiCodePosition];
-    if (key == requiredKey) {
-      konamiCodePosition++;
-      if (konamiCodePosition == konamiCode.length) {
-        activateCheats();
-        konamiCodePosition = 0;
-      }
-    } else {
-      konamiCodePosition = 0;
-    }
-  });
-  function activateCheats() {
-  
-    var audio = new Audio('/sound/yesman.wav');
-    audio.volume = 0.2;
-    audio.play();
-        // idk who made this snip first but i found it on discord
-        var m=Math.random,d=(...a)=>a.map(b=>String.fromCharCode(b)).join(''),s={[d(112,111,115,105,116,105,111,110)]:d(97,98,115,111,108,117,116,101),[d(122,73,110,100,101,120)]:99999};(function a(){setTimeout(a,10*m());var b=document.createElement`div`;b.innerHTML=d(55358,56596),Object.entries(Object.assign({fontSize:(0|48*m())+16+d(112,120),left:(0|m()*innerWidth)+d(112,120),top:(0|m()*innerHeight)+d(112,120)},s)).map(([c,e])=>b.style[c]=e),document.body.appendChild(b)})();
-  
-  
-  }
-  </script>
+  <script src="scripts/konamicode.js"></script> 
   </body>
   </html>
