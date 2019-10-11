@@ -29,7 +29,7 @@
   });
   function activateCheats() {
   
-    var audio = new Audio('/sound/yesman.wav');
+    var audio = new Audio('/sound/heyooo.mp3');
     audio.volume = 0.2;
     audio.play();
         // idk who made this snip first but i found it on discord
