@@ -9,12 +9,17 @@
     66: 'b',
     83: 's',
     87: 'w',
-    71: 'g'
+    71: 'g',
+    77: 'm',
+    74: 'j',
+    79: 'o',
+    82: 'r'
   };
   
-  var konamiCode = ['up', 'up', 'down', 'down', 'left', 'right', 'left', 'right', 'b', 'a'];
+  // var konamiCode = ['up', 'up', 'down', 'down', 'left', 'right', 'left', 'right', 'b', 'a'];
   
-  var sCode = ['s', 'w', 'a', 'g']
+  var konamiCode = ['m', 'a', 'j', 'o', 'r', 'a'];
+
   
   var CodePosition = 0;
   
@@ -34,13 +39,11 @@
   
   function activateCheats() {
   
-    var audio = new Audio('./sound/heyooo.mp3');
+    var audio = new Audio('./sound/majora.mp3');
     audio.volume = 0.2;
     audio.play();
-        // idk who made this snip first but i found it on discord
-        // var m=Math.random,d=(...a)=>a.map(b=>String.fromCharCode(b)).join(''),s={[d(112,111,115,105,116,105,111,110)]:d(97,98,115,111,108,117,116,101),[d(122,73,110,100,101,120)]:99999};(function a(){setTimeout(a,10*m());var b=document.createElement`div`;b.innerHTML=d(55358,56596),Object.entries(Object.assign({fontSize:(0|48*m())+16+d(112,120),left:(0|m()*innerWidth)+d(112,120),top:(0|m()*innerHeight)+d(112,120)},s)).map(([c,e])=>b.style[c]=e),document.body.appendChild(b)})();
-        var src = "https://66.media.tumblr.com/45545c1479988c4288fa2b5580cae1e2/tumblr_pu8s81VRFQ1ynrp9fo1_400.gif";
-        show_image("https://66.media.tumblr.com/45545c1479988c4288fa2b5580cae1e2/tumblr_pu8s81VRFQ1ynrp9fo1_400.gif", 400,225, "jack dancing");
+        var src = "./images/majora.gif";
+        show_image("./images/majora.gif", 265,305, "lank");
   
   }
   function show_image(src, width, height, alt) {
