@@ -4,31 +4,30 @@
     body {
       text-align: center;
       color: white;
-      /* background-image: url('https://media.discordapp.net/attachments/280037893857345536/447812269502496768/Untitled-1.png');
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-      width: auto;
-      height: auto */
+      background: url('./images/background.jpg')  no-repeat center center fixed;
       background-color: black;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
     }
-    #myVideo {
+    /* #myVideo {
         position: fixed;
         right: 0;
         bottom: 0;
         min-width: 100%;
         min-height: 100%;
-      }
+      } */
     @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
     @import url('https://fonts.googleapis.com/css?family=Nunito');
     .about {
       padding-left: 100px;
       padding-right: 100px;
       margin: 10px;
-      opacity: .8;
+      /* opacity: .8; */
     }
     .logo {
-        opacity: 0.9;
+        /* opacity: 0.9; */
     }
     .about p span {
       font-size: 17px;
@@ -38,11 +37,11 @@
     }
     img {
       margin: 5px;
-      opacity: .99;
+      /* opacity: .99; */
     }
     a {
       color: white;
     }
     .links {
-      opacity: .8;
+      /* opacity: .8; */
     }
