@@ -41,7 +41,7 @@
     audio.volume = 0.2;
     audio.play();
         var src = "./images/majora.gif";
-        show_image("./images/majora.gif", 265,305, "lank");
+        show_image("./images/majora.gif", 265,305, "skullkid");
   
   }
 
