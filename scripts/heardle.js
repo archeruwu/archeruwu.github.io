@@ -3813,7 +3813,7 @@ var app = (function() {
         c() {
           (n = w("div")),
           (n.innerHTML =
-            '<p class="mb-3">A clone of <a href="https://www.heardle.app/" title="Heardle">Heardle</a> but for Kanye West songs. Each song is randomly chosen from his discography, including features.</p> \n\n<p class="mb-3">Made by <a href="https://twitter.com/eggtartemily">@eggtartemily</a>. All copyright goes to Kanye West, RCA Records, and other relevant parties.</p> \n\n\n\n <p class="mb-3">  </p>  \n\n\n\n <p class="text-xs mb-3 text-custom-line">Prepared with <a href="https://developers.soundcloud.com">SoundCloud</a>\n and powered by <a href="https://glitch.com/">Glitch</a>. See the source code <a href="https://glitch.com/edit/#!/Kanye West-heardle">here</a>.'),
+            '<p class="mb-3">A clone of <a href="https://www.heardle.app/" title="Heardle">Heardle</a> but for Kanye West songs. Each song is randomly chosen from his discography, including features.</p> \n\n<p class="mb-3">Made by <a href="https://twitter.com/archer_uwu">Archer</a>. All copyright goes to Kanye West, RCA Records, and other relevant parties.</p> \n\n\n\n <p class="mb-3">  </p>  \n\n\n\n <p class="text-xs mb-3 text-custom-line">Prepared with <a href="https://developers.soundcloud.com">SoundCloud</a>\n and powered by <a href="https://glitch.com/">Glitch</a>. See the source code <a href="https://glitch.com/edit/#!/Kanye West-heardle">here</a>.'),
           M(n, "class", "text");
         },
         m(e, t) {
@@ -4670,7 +4670,7 @@ var app = (function() {
               "\n\n" +
               t +
               "\n\n" +
-              "https://Kanye West-heardle.glitch.me/";
+              "https://lycan.rocks/yeheardle";
             if (
               !navigator.share ||
               !/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(

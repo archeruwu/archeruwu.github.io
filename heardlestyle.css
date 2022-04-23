@@ -788,11 +788,11 @@ a:active {
 :root {
   --color-positive: #252c52; /* Submit button */
   --color-negative: #c8613d;
-  --color-fg: #eff0e7; /* Font color and accents */
-  --color-mg: #cec3c1; /* Skip button, progress bar */
+  --color-fg: #B47DC3; /* Font color and accents */
+  --color-mg: #F58B57; /* Skip button, progress bar */
   --color-bg: #121212;
-  --color-line: #dcc8a8; /* Line color for current guess box, top line, and song player lines */
-  --color-shade: rgba(0, 0, 0, 0.1);
+  --color-line: #EC223F; /* Line color for current guess box, top line, and song player lines */
+  --color-shade: rgba(104, 42, 42, 0.1);
   --color-highlight: rgba(255, 255, 255, 0.05);
 }
 @media (min-width: 640px) {
