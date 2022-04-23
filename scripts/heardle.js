@@ -4670,7 +4670,7 @@ var app = (function() {
               "\n\n" +
               t +
               "\n\n" +
-              "https://lycan.rocks/yeheardle";
+              "https://lycan.rocks/ye";
             if (
               !navigator.share ||
               !/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
