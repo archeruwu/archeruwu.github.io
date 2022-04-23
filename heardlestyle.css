@@ -788,10 +788,10 @@ a:active {
 :root {
   --color-positive: #252c52; /* Submit button */
   --color-negative: #c8613d;
-  --color-fg: #ffff; /* Font color and accents */
+  --color-fg: #EC223F; /* Font color and accents */
   --color-mg: #F58B57; /* Skip button, progress bar */
   --color-bg: #121212;
-  --color-line: #EC223F; /* Line color for current guess box, top line, and song player lines */
+  --color-line: #BE89CC; /* Line color for current guess box, top line, and song player lines */
   --color-shade: rgba(104, 42, 42, 0.1);
   --color-highlight: rgba(255, 255, 255, 0.05);
 }
@@ -851,7 +851,7 @@ input[type="textfield"] {
   z-index: 1000;
 }
 button.svelte-1r54uzk {
-  color: #0000;
+  color: #fff;
 }
 @-webkit-keyframes svelte-15swa4o-gg-bar {
   10% {
