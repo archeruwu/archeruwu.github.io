@@ -4085,7 +4085,7 @@ var app = (function() {
         maxAttempts: 6,
         startDate: "2022-04-07",
       },
-      Jt = ["This is why Kanye West likes UFC over us", "That's inKanye West!", "Zquad indeed!", "AmaKanye West", "You must've done this BeFoUr", "Almost got exposed", "Need to relisten, huh?"];
+      Jt = ["WAVY", "You need a room full of mirrors.", "I LOVE YOU LIKE KANYE LOVES KANYE", "VERY VERY VIBE WORTHY"];
   
     function Kt(t) {
       let n, r;
