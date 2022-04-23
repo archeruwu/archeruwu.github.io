@@ -4085,7 +4085,7 @@ var app = (function() {
         maxAttempts: 6,
         startDate: "2022-04-07",
       },
-      Jt = ["WAVY", "You need a room full of mirrors.", "I LOVE YOU LIKE KANYE LOVES KANYE", "VERY VERY VIBE WORTHY"];
+      Jt = ["WAVY", "You need a room full of mirrors.", "I LOVE YOU LIKE KANYE LOVES KANYE", "VERY VERY VIBE WORTHY", "YEEZY TAUGHT YOU"];
   
     function Kt(t) {
       let n, r;

@@ -733,7 +733,7 @@ video {
 ::after {
   --tw-ring-inset: var(--tw-empty, /*!*/ /*!*/);
   --tw-ring-offset-width: 0px;
-  --tw-ring-offset-color: #fff;
+  --tw-ring-offset-color: #B47DC3;
   --tw-ring-color: rgba(59, 130, 246, 0.5);
   --tw-ring-offset-shadow: 0 0 #0000;
   --tw-ring-shadow: 0 0 #0000;
@@ -788,7 +788,7 @@ a:active {
 :root {
   --color-positive: #252c52; /* Submit button */
   --color-negative: #c8613d;
-  --color-fg: #B47DC3; /* Font color and accents */
+  --color-fg: #ffff; /* Font color and accents */
   --color-mg: #F58B57; /* Skip button, progress bar */
   --color-bg: #121212;
   --color-line: #EC223F; /* Line color for current guess box, top line, and song player lines */
