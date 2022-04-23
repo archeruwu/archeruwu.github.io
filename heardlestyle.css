@@ -790,7 +790,7 @@ a:active {
   --color-negative: #c8613d;
   --color-fg: #EC223F; /* Font color and accents */
   --color-mg: #F58B57; /* Skip button, progress bar */
-  --color-bg: #121212;
+  --color-bg: #000;
   --color-line: #BE89CC; /* Line color for current guess box, top line, and song player lines */
   --color-shade: rgba(104, 42, 42, 0.1);
   --color-highlight: rgba(255, 255, 255, 0.05);
