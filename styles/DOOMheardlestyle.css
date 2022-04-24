@@ -788,8 +788,8 @@ a:active {
 :root {
   --color-positive: #252c52; /* Submit button */
   --color-negative: #c8613d;
-  --color-fg: #A6B95E; /* Font color and accents */
-  --color-mg: #D72125; /* Skip button, progress bar */
+  --color-fg: #D72125; /* Font color and accents */ 
+  --color-mg: #A6B95E; /* Skip button, progress bar */
   --color-bg: #000;
   --color-line: #72B277; /* Line color for current guess box, top line, and song player lines */
   --color-shade: rgba(104, 42, 42, 0.1);
