@@ -17,6 +17,7 @@
   };
     
   var majoraCode = ['m', 'a', 'j', 'o', 'r', 'a'];
+  var placeholder_for_future_funnys = [];
 
   
   var CodePosition = 0;
