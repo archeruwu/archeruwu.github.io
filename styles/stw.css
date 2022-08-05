@@ -1,0 +1,39 @@
+    @import url('https://cdn.discordapp.com/attachments/612824479571378188/1004639954758008882/BurbankSmall-Black.otf');
+    body {
+        text-align: center;
+        background-color: black;
+        color: white;
+        font-size: 20px;
+        font-family: Helvetica, Arial, sans-serif;
+    }
+    .title {
+        font-family: 'Burbank Small Black';
+    }
+    .default {
+        padding-top: 1%;
+        padding-bottom: 60px;
+    }
+    .desc {
+        padding-top: 1%;
+        /* position: fixed;
+        bottom: 1px;
+        right: 10px;
+        left: 10px; */
+    }
+    .subtitle {
+        font-size: 15px;
+    }
+    .swim {
+      padding-top: .5%;
+      position: fixed;
+      bottom: 10px;
+      right: 10px;
+      z-index:999;
+    }
+    .swim:hover, .swim:active {
+        /* ill make it look fancy here maybe one day lol */
+    }
+    .updated {
+        padding-top: 1.5%;
+        /* text-shadow: 0 4px 40px white; */
+    }
