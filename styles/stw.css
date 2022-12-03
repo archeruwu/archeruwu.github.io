@@ -1,4 +1,3 @@
-    @import url('https://cdn.discordapp.com/attachments/612824479571378188/1004639954758008882/BurbankSmall-Black.otf');
     body {
         text-align: center;
         background-color: black;
@@ -7,7 +6,6 @@
         font-family: Helvetica, Arial, sans-serif;
     }
     .title {
-        font-family: 'Burbank Small Black';
     }
     .default {
         padding-top: 1%;
