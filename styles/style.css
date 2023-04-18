@@ -29,7 +29,7 @@
     /* .logo {
         opacity: 0.9;
     } */
-    .about p span {
+    .about p span, #lyric {
       font-size: 17px;
       font-family: 'Nunito', sans-serif;
       background-color: rgba(0, 0, 0, 0.55);
@@ -61,5 +61,12 @@
       bottom: 10px;
       left: 10px;
       z-index:999;
+    }
+    #lyrictxt {
+      font-size: 20px;
+      font-style: italic;
+    }
+    #artist {
+      /* put something here later lol */
     }
   
