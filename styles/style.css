@@ -72,3 +72,29 @@
   .fortnitecode {
     color: #2DA24D;
   }
+  .linksD {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown {
+    background-color: #2c2c31;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+  }
+  .socialdlist {
+    display: none;
+    position: relative;
+    background-color: #0c0c0d;
+    min-width: 200px;
+    z-index: 1;
+  }
+  .socialdlist a {
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    display: block;
+  }
+  .linksD:hover .socialdlist {
+    display: block;
+  }
