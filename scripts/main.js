@@ -27,6 +27,10 @@ const lyriclist = function() {
         {
             lyric: "My heart, is a cancer; radiation wouldn't help a thing",
             artist: "The Taxpayers - Hungry Dog In The Street"
+        },
+        {
+            lyric: "You're running after something that you'll never kill.",
+            artist: "My Chemical Romance - Thank You for the Venom"
         }
     ];
     let songlist = Math.floor(Math.random() * songs.length);
