@@ -9,6 +9,7 @@
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
+      font-family: 'Nunito', sans-serif;
     }
     @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
     @import url('https://fonts.googleapis.com/css?family=Nunito');
@@ -51,13 +52,20 @@
       left: 10px;
       z-index:999;
     }
-    #lyrictxt {
+    /* #lyrictxt {
       font-size: 20px;
       font-style: italic;
     }
     #artist {
-      /* put something here later lol */
-    }
+    } */
   .fortnitecode {
     color: #2DA24D;
   }
+      /* all the lastfm shit */
+      .nowplaying a {
+        text-decoration: none;
+    }
+    #album-cover {
+      margin: auto;
+      display:block;
+    }
