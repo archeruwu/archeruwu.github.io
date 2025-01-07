@@ -26,7 +26,7 @@ function relativeTime(time, time_text) {
     }
     if (time_diff >= SEC_IN_HOUR && time_diff < SEC_IN_DAY) {
         let hours = Math.round(time_diff / SEC_IN_HOUR)
-        return hours + " hour" +
+        return "was listening " + hours + " hour" +
             ((hours != 1) ? "s" : "") + " ago:"
     }
     if (time_diff >= SEC_IN_DAY)
